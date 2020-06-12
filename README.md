@@ -14,11 +14,11 @@ i=0 # works
 ### No.2: Problem with if clause
 ```sh
 i = 0
-if ["$i"=="0"]; then # isn't recognized
+if ["$i" -eq "0"]; then # isn't recognized
   echo "hello"
 fi
 
-if [ "$i"=="0" ]; then # works
+if [ "$i" -eq "0" ]; then # works
   echo "hello"
 fi
 ```
