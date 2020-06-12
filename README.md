@@ -24,3 +24,4 @@ fi
 ```
 
 [https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
+[https://stackoverflow.com/questions/1362298/convert-floating-point-variable-to-integer](https://stackoverflow.com/questions/1362298/convert-floating-point-variable-to-integer)
