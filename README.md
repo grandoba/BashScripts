@@ -22,3 +22,5 @@ if [ "$i" -eq "0" ]; then # works
   echo "hello"
 fi
 ```
+
+[https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/](https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/)
