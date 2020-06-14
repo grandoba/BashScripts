@@ -1,4 +1,4 @@
-# 9
+# 9 For stats
 
 for file in 3*.pcd
 do
@@ -9,6 +9,7 @@ do
     # echo "${fields[0]} ${fields[1]}">> stats.csv
   # fi
 done
+
 # for file in *.pcd
 # do
 #   if [ "${file:0:1}" -lt "0" ]; then
