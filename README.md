@@ -1,7 +1,45 @@
 # BashScripts
 useful bash scripts
 
+## simple useful commands
+```sh
+pwd | xclip -sel clip
+```
+copy to clipboard
+```sh
+find <directory> -iname "*abcdef.*"
+```
+find file name in format "*abcdef.*" inside directory
 
+## ROS related
+
+## Git related
+```sh
+git pull #START YOUR WORK #get original file on GITLAB
+git checkout master #make sure you are on the master branch
+
+#Case1: Access new branch
+git branch <NEW-BRANCH>
+git checkout -b <name-of-branch> #make a new branch
+
+#Case2: Access a previosly made branch
+git checkout <PREVIOSULY-MADE-BRANCH>
+
+# ...develop some code...
+	# ...REPEAT
+git add .
+
+git commit –m "Some commit message"
+	# ...REPEAT
+
+# Merge to local master branch
+git checkout master
+
+git merge new-branch
+
+git push #END YOUR WORK
+
+```
 
 ## Things to be careful of
 ### No.1: Problem with number variable assignment
