@@ -1,6 +1,9 @@
 # 11
 
-total=3688
+# 1. for all Tracks, we divide each by a 10x10 grid. -> ver8.sh
+# 2. delete data points that are with 2 meter from the floor. -> ver11.sh
+
+total=3688 #$(ls 3*.pcd | wc - l)
 fileno=0
 
 for file in 3*.pcd

@@ -1,11 +1,15 @@
 # 8
 
+# Parse data into a 10x10 grid.
+  # go to ver12.sh for the next step
+# ${y:0:6} : bash is 0 indexed, 첫번째 letter이 0th index, 그후는 몇개의 string을 남겨 놓을지. (여기서는 6 letters)
+
 for file in *.pcd
 do
   echo $file
   while read x y z Remaining
   do
-    echo "$x $y $z $Remaining" >> "${x:0:5}--${y:0:6}--.pcd"
+    echo "$x $y $z $Remaining" >> "${x:0:5}-${y:0:6}-.pcd"
   done < $file
 done
 
